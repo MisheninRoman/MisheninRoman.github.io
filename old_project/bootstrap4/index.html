@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="vendor/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap4/style.css">
+    <script src="vendor/js/bootstrap.min.js" defer></script>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">НЛК</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Портфолио <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Рейтинг</a>
+            <a class="nav-item nav-link" href="#">Помощь</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="jumbotron">
+        <h1 class="display-4">Портфолио</h1>
+        <p class="lead">Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные работы,
+            получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Добавить работу</a>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-5">
+            <div class="card">
+                <h5 class="card-header">Ваш профиль</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Мишенин Роман Борисович</h5>
+                  <p class="card-text"><b>Уровень навыков:</b> Junior.<br><b>Специальность:</b> Front-end разработчик.</p>
+                  <a href="#" class="btn btn-primary">Добавить работу</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+        </div>
+      </div>
+
+
+      <div class="table_work">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col-lg-5">Название работы</th>
+            <th scope="col-lg-2">Дата загрузки</th>
+            <th scope="col-lg-2">Научный руководитель</th>
+            <th scope="col-lg-2">Уникальность</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Привлечение инвестиций как фактор развития экономики</th>
+            <td>21.05.2019</td>
+            <td>Асаншоева А.М.</td>
+            <td>89%</td>
+          </tr>
+          <tr>
+            <th scope="row">The role of accounting in sustainable development</th>
+            <td>12.04.2019</td>
+            <td>Асанова А.Г.</td>
+            <td>78%</td>
+          </tr>
+          <tr>
+            <th scope="row">Сценарный анализ как инструмент учета рисков инвестиционного
+              проекта</th>
+            <td>24.12.2018</td>
+            <td>Эсто А.В.</td>
+            <td>54%</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+
+  </body>
+
+
+  <footer>
+    <div class="conteiner_foot">
+      <div class="end">
+        © Научный личный кабинет. Все права защищены
+      </div>
+    </div>
+  </footer>
+
+  
+</html>

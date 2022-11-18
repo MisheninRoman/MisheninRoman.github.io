@@ -1,0 +1,95 @@
+.main_up{
+    display: flex;
+    margin: 0 auto;
+    background: url(../UberEats/img/bc_tractir.png);
+    max-width: 1124px;
+    height: 364px;
+    justify-content: space-between;
+}
+
+#back{
+    padding: 0;
+}
+
+.main_card{
+    height: 204px;
+    width: 389px;
+    background: white;
+    margin-left: 81px;
+    text-align: center;
+}
+
+.main_card h1{
+    padding-top: 38px;
+}
+
+#btn_div{
+    border-radius: 16px;
+    color: white;
+    background: black;
+    border: 0;
+    width: 100px;
+    height: 32px;
+}
+
+.nav_bar{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1124px;
+    height: 81px;
+    justify-content: space-between;
+}
+
+.nav_items{
+    padding: 0;
+    margin: 0 0 0 73px;
+}
+.nav_items li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #626262;
+    line-height: 80px;
+}
+
+
+.name_items_nav{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1124px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.name_items_nav h2{
+    margin: 0;
+}
+
+.food_card{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1124px;
+    /*height: 658px;*/
+    justify-content: space-between;
+}
+
+.name_card{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+.name_card p{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.col-xl-6{
+    width: 100%;
+    max-width: 470px;
+}
+

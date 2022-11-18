@@ -1,0 +1,36 @@
+.container_search{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1124px;
+    height: 136px;
+
+    justify-content: space-between;
+}
+
+input{
+    outline: none;
+}
+
+.search{
+    display: flex;
+    padding-left: 81px;
+    padding-right: 87px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+}
+
+#search{
+    width: 100%;
+    width: 956px;
+    height: 24px;
+    font-size: 16px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+
+}
+
+#col{
+    padding: 0;
+}

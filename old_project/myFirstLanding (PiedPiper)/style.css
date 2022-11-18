@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    z-index: 1;
+    position: fixed;
+    height: 84px;
+    background: #007765;
+    width: 100%;
+}
+.conteiner{
+    position: relative;
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+}
+.conteiner_head{
+    display: flex;
+    padding: 20px 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_links{
+    font-size: 24px;
+}
+.piper{
+    display: flex;
+    height: 403px;
+    background: url(../myFirstLanding/img/Jumbotron.png) center center/cover no-repeat;
+}
+#content{
+    text-align: center;
+    margin-top: 160px;
+    font-size: 72px;
+    color: #ffffff;
+}
+.the_problem{
+    height: 719px;
+    left: 0px;
+    top: 487px;
+}
+.the_problem h1{
+    text-align: center;
+    font-size: 64px;
+    color:#007765;
+    padding-top: 48px;
+}
+.the_problem p{
+    font-size: 32px;
+    color: #000000;
+    margin: 0 auto;
+    padding: 16px 54px 92px 55px;
+}
+.together{
+    height: 483px;
+    background: url(../myFirstLanding/img/together.png) center center/cover no-repeat;
+}
+.together p{
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 128px 163px 127px 163px;
+}
+.coin{
+    position: relative;
+    height: 604px;
+}
+.coin_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.coin_item{
+    display: flex;
+    justify-content: space-between;
+}
+.coin_decr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 48px;
+    min-width: 110px;
+}
+.coin_h2 h2{
+    padding-top: 48px;
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+}
+.coin_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.team{
+    position: relative;
+    display: flex;
+    height: 845px;
+    background: #eeeeee;
+}
+.team h2{
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+}
+.people_name{
+    font-size: 24px;
+    color: #007765;
+}
+.people_descr{
+    font-size: 18px;
+}
+.people_wrapper, .people_wrapper2{
+    margin-top: 56px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.people_wrapper2{
+    margin-top: 82px;
+}
+.end{
+    height: 176px;
+    background: #333333;
+}
+.end p{
+    text-align: center;
+    padding: 48px 339px 64px 340px;
+    color: #ffffff;
+    font-size: 18px;
+}

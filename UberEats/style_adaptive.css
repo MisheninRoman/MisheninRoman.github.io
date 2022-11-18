@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    body{
+        width: calc(320px + (1200 - 320) * ((100vw - 320px) / (1200 - 320)));
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        width: calc(320px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+        background-color: aquamarine;
+    }
+}
+@media screen and (max-width: 320px) {
+    body{
+        width: calc(320px + (320 - 320) * ((100vw - 320px) / (320 - 320)));
+        background-color: red;
+    }
+}

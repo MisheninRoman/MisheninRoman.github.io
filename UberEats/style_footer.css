@@ -1,0 +1,60 @@
+.foot{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    background-color:black;
+    color: white
+    ;
+}
+
+
+.container_foot{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1124px;
+    height: 116px;
+    justify-content: space-between;
+}
+
+
+.white_logo_foot{
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+
+.container_foot_menu{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 1124px;
+    height: 230px;
+    justify-content: space-between;
+    
+}
+
+tr{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container_foot_app{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1124px;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.container_foot_end{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1124px;
+    height: 93px;
+    justify-content: space-between;
+}
+
+td{
+    border: 0;
+    color: white;
+}
