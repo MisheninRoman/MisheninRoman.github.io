@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -11,7 +15,7 @@
 
 .promo{
     height: 800px;
-    background: url(/wordpress/img/main_bg.png) center center / cover no-repeat;
+    background: url(../img/main_bg.png) center center / cover no-repeat;
     padding: 38px 0 61px 0;
 }
 
@@ -77,7 +81,7 @@ h2.title{
     font-weight: 700;
 }
 
-.promo .promo_btn{
+.promo .promo_btn, .promo_btn_2{
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -92,7 +96,7 @@ h2.title{
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
-    
+    cursor: pointer;
 }
 
 .promo .promo_about{
@@ -172,18 +176,52 @@ h2.title{
 
 }
 
+.wooman_what{
+    background: url(../img/woman_bg.png) no-repeat;
+    background-position: left bottom;
+    height: 607px;
+}
+
+.container .what_descr{
+    width: 750px;
+    height: 367px;
+    padding-top: 119px;
+    float: right;
+}
 .after_training{
     height: 450px;
     background: url(../img/second_bg.png) center center / cover no-repeat;
 
 }
 
+.container .what_descr .what_first{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299cbd;
+    margin-bottom: 25px;
+}
 
+.container .what_descr .what_sec{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a4a4a;
+}
 
-
+.container .what_descr .what_sec span{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a4a4a;
+}
 
 
 .after_training .could{
+    margin-top: 39px;
     display: flex;
     justify-content: space-between;
 }
@@ -193,7 +231,16 @@ h2.title{
     text-align: center;
 }
 
-
+.container .finish_dcr .finish_text{
+    padding-top: 86px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#efefef;
+}
 
 .after_training .could .finish .finish_descr{
     color: #EFEFEF;
@@ -201,4 +248,110 @@ h2.title{
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
+}
+
+
+.gift_promo{
+    background-color: rgba(239, 239, 239, 1);
+    height: 628px;
+}
+
+.container .gift_icon .icon_gift{
+    display: block;
+    margin: 0 auto;
+    padding-top: 85px;
+    /* margin-top: 85px; */
+}
+
+.container .gift_text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+    color:#252525;
+}
+
+.container .promo_btn_2{
+    margin-top: 51px;
+    /* margin-bottom: 88px; */
+    border: 0;
+    background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.container .web_descr{
+    text-align: center;
+    width: 577px;
+    margin: 0 auto;
+    margin-top: 81px;
+    padding-bottom: 50px;
+}
+
+.container .web_descr .first_descr{
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.container .web_descr .second_descr{
+    margin-top: 30px;
+    width: 607px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.container .web_descr .third_descr{
+    margin-top: 24.5px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4a4a4a;
+}
+
+.footer{
+    background-color: rgba(26, 26, 26, 1);
+    
+    text-align: center;
+    height: 169px;
+    
+}
+
+.footer .container .foot_descr ul, li{
+    list-style: none;
+    display: inline;
+}
+
+.container .foot_descr .ft_line_1:after{
+    content: " |";
+}
+
+.container .foot_descr{
+    padding-top: 57px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(136, 136, 136, 1);
+}
+
+.container .foot_descr .contact{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(136, 136, 136, 1);
 }

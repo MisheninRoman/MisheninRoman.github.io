@@ -92,3 +92,40 @@ body{
     color: black;
 }
 
+.container .my_srt{
+    width: 100%;
+    height: 47.2px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    line-height: 47.2px;
+}
+
+.container .my_study{
+    margin: 0 auto;
+}
+
+.container .my_study .stepik_1{
+    display: block;
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+    margin: 15px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+}
+
+.container .my_sites{
+    width: 100%;
+    height: 47.2px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    line-height: 47.2px;
+}
+
+.container .my_sites{
+    margin: 0 auto;
+}
