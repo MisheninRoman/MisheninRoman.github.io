@@ -1,0 +1,58 @@
+@import url(../css/fonts.css);
+
+html{
+    font-style: 'Roboto', 'Arial', sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+a.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container_head{
+    padding: 10px;
+    height: 95px;
+    background: #212529;
+}
+
+.container_head .head_nav{
+    width: 221px;
+}
+.container_head .head_nav .my_name{
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: aliceblue;
+    line-height: 15px;
+    width: 221px;
+}
+
+.container_head .head_nav .my_name .first_name{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_head .head_nav .my_name .first_spec{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.container_head .logo{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.icon-github:before {
+    content: "\eab0";
+    font-size: 72px;
+}
+
+.my_link{
+    line-height: 72px;
+    font-size: 32px;
+    text-align: right;
+    word-spacing: 15px;
+}
