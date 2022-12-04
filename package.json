@@ -1,0 +1,24 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "The source files of my business cadr site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisheninRoman/MisheninRoman.github.io.git"
+  },
+  "author": "Roman Mishenin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisheninRoman/MisheninRoman.github.io/issues"
+  },
+  "homepage": "https://github.com/MisheninRoman/MisheninRoman.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  }
+}
