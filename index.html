@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="promo-nav">
+    <header class="promo-nav">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
             <div class="promo-nav__logo">
               <a href="#">RMishenin</a>
             </div>
           </div>
-          <div class="col">
+          <div class="col-xl col-lg col-md col-sm col-6">
             <div class="promo-nav__menu">
               <ul>
                 <li>
@@ -37,14 +37,24 @@
                 </li>
               </ul>
             </div>
+            <div class="dropdown">
+              <button class="dropdown-button">Menu</button>
+              <div class="dropdown-content">
+                <a href="#services" class="promo-nav__menu-li">Услуги</a>
+                <a href="#" class="promo-nav__menu-li">Сведения</a>
+                <a href="#" class="promo-nav__menu-li">FAQ</a>
+                <a href="#" class="promo-nav__menu-li">Портфолио</a>
+                <a href="#" class="promo-nav__menu-li">Свяжитесь со мной</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </header>
     <section class="promo-offer">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md col-sm col">
             <div class="promo-offer__wrap">
               <h1 class="promo-offer__wrap-title">RMishenin</h1>
               <h2 class="promo-offer__wrap-dscr">
@@ -53,7 +63,7 @@
               </h2>
             </div>
           </div>
-          <div class="col">
+          <div class="col-xl-6 col-lg-6 col-md col-sm col">
             <div class="promo-offer__logo">
               <img src="img/developer.svg" alt="logo" />
             </div>
@@ -67,9 +77,9 @@
         <h3 class="services-dscr">простые и удобные решения</h3>
         <div class="services-wrapper">
           <div class="row">
-            <div class="col">
+            <div class="col-xl-4 col-lg-6 col-md col-sm col">
               <div class="services-card">
-                <span class="icon-embed2 services-card__js"></span><br /><br />
+                <span class="icon-embed2 services-card__js"></span>
                 <span class="services-card__js-title">JavaScript</span><br />
                 <span class="services-card__js-dscr"
                   >JavaScript - мой конек с самых первых щагов в профессии.
@@ -78,10 +88,9 @@
                 </span>
               </div>
             </div>
-            <div class="col">
+            <div class="col-xl-4 col-lg-6 order-first col-md col-sm col">
               <div class="services-card">
-                <span class="icon-document-file-css services-card__css"></span
-                ><br /><br />
+                <span class="icon-document-file-css services-card__css"></span>
                 <span class="services-card__css-title">CSS</span><br />
                 <span class="services-card__css-dscr"
                   >CSS - одна из самых популярных услуг. Я знаю, как сделать это
@@ -91,10 +100,9 @@
                 </span>
               </div>
             </div>
-            <div class="col">
+            <div class="col-xl-4 col-lg col-md col-sm col">
               <div class="services-card">
-                <span class="icon-html-five2 services-card__html"></span
-                ><br /><br />
+                <span class="icon-html-five2 services-card__html"></span>
                 <span class="services-card__html-title"
                   >Frontend-разработка</span
                 ><br />
@@ -110,5 +118,6 @@
         </div>
       </div>
     </section>
+    <script src="js/dropdown.js"></script>
   </body>
 </html>
