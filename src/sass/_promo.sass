@@ -1,24 +1,48 @@
 .promo
-    &-nav
+    display: flex
+    justify-content: space-between
+    color: #3f3d56
+    margin: 100px auto 0 auto
+    width: 1450px
+    &__wrap
         display: flex
-        margin-top: 15px
-        justify-content: space-between
-        line-height: 58px
-        
-        &__logo
-            font-size: 24px
-            font-weight: 500
-    &-nav__menu
-        &-ul
-            list-style: none
+        margin: auto 0
+        flex-direction: column
+        &-title
+            font-size: 100px
+            font-weight: 600
             margin: 0
             padding: 0
-            li
-                display: inline
-                padding: 0 10px
-                font-size: 18px
-                font-weight: 400
-            li:nth-child(1)
-                padding-left: 0
-            li:nth-child(5)
-                padding-right: 0
+        &-dscr
+            width: 505.58px
+            font-size: 26px
+            font-weight: 500
+            text-align: left
+            margin: 0
+            padding-left: 5px
+            span
+                color: #6c63ff
+                font-size: 27px
+                font-weight: 600
+        #submit
+            cursor: pointer
+            height: 70px
+            width: 335px
+            margin-top: 20px
+            font-size: 27px
+            font-weight: 800
+            border: 1px solid #3f3d56
+            background-color: #3f3d56
+            color: #6c63ff
+            border-radius: 7px
+        #submit:hover
+            background-color: #6c63ff
+            color: #3f3d56
+            border: 1px solid #6c63ff
+            transition: 0.5s
+            
+    &__logo
+        img
+            object-fit: cover
+            width: 548px
+            height: 548px
