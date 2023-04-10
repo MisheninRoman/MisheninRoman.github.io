@@ -1,0 +1,78 @@
+.prj
+    display: grid
+    &-calc
+        display: flex
+        &__dscr
+            display: flex
+            flex-direction: column
+            background-color: #f2f2f2
+            width: 420px
+            padding-left: 20px
+            padding-right: 10px
+            padding-bottom: 10px
+            color: #3f3d56
+            box-shadow: 0px 0px 10px 1px #3f3d56
+            font-size: 15px
+            border-top-right-radius: 5px
+            border-bottom-right-radius: 5px
+            &-title
+                text-align: center
+                font-size: 16px
+                font-weight: bold
+                padding-top: 10px
+            &-dscr
+                padding-top: 10px
+        &__calc
+            display: flex
+            flex-direction: column
+            width: 250px
+            height: 420px
+            background-color: #3f3d56
+            box-shadow: 0px 0px 10px 1px #3f3d56
+            padding: 10px 12px
+            // border-radius: 5px
+            border-top-left-radius: 5px
+            border-bottom-left-radius: 5px
+            #prj-calc__calc-disp
+                display: flex
+                justify-content: end
+                align-items: center
+                height: 70px
+                line-height: 70px
+                padding: 16px 8px
+                font-size: 25px
+                margin: 0 0 10px 0
+                background-color: #f2f2f2
+                border-radius: 5px
+            &-btns
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr 2fr
+                gap: 5px
+                &__btn
+                    border: 0.5px solid #6c63ff
+                    background-color: #f2f2f2
+                    line-height: 50px
+                    border-radius: 5px
+                    text-align: center
+                    font-size: 14px
+                    cursor: pointer
+                    color: #3f3d56
+                    font-weight: bold
+                #equal
+                    background-color: #6c63ff
+                    color: #f2f2f2
+                &__btn:hover
+                    background-color: #6c63ff
+                    color: #f2f2f2
+                    transition: 0.1s ease-in-out
+                &__btn:active
+                    background-color: #3f3d56
+                    color: #f2f2f2
+            &-dscr
+                display: flex
+                justify-content: end
+                margin: auto 0
+                font-size: 15px
+                color: #f2f2f2
+
+
