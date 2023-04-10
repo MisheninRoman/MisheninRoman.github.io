@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman Mishenin - frontend developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="head__logo">
+        <a href="#">RMishenin</a>
+      </div>
+      <div class="head__menu">
+        <ul>
+          <li><a href="#" class="head__menu-li">Сведения</a></li>
+          <li><a href="#" class="head__menu-li">Примеры</a></li>
+          <li>
+            <a href="#" class="head__menu-li">Связаться</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="promo">
+      <div class="promo__wrap">
+        <h1 class="promo__wrap-title">RMishenin</h1>
+        <h2 class="promo__wrap-dscr">
+          Увлеченный новатор цифрового мира<br />Написал
+          <span>10 000</span> строк кода
+        </h2>
+        <button type="submit" id="submit" class="btnRep">
+          Связаться со мной
+        </button>
+      </div>
+      <div class="promo__logo">
+        <img src="img/developer.svg" alt="logo" />
+      </div>
+    </section>
+    <main class="main">
+      <section class="about"></section>
+      <section class="prj">
+        <div class="prj-calc">
+          <div class="prj-calc__calc">
+            <div id="prj-calc__calc-disp"></div>
+            <div class="prj-calc__calc-btns">
+              <div class="prj-calc__calc-btns__btn">C</div>
+              <div class="prj-calc__calc-btns__btn">/</div>
+              <div class="prj-calc__calc-btns__btn">*</div>
+              <div class="prj-calc__calc-btns__btn">Del</div>
+              <div class="prj-calc__calc-btns__btn">7</div>
+              <div class="prj-calc__calc-btns__btn">8</div>
+              <div class="prj-calc__calc-btns__btn">9</div>
+              <div class="prj-calc__calc-btns__btn">-</div>
+              <div class="prj-calc__calc-btns__btn">4</div>
+              <div class="prj-calc__calc-btns__btn">5</div>
+              <div class="prj-calc__calc-btns__btn">6</div>
+              <div class="prj-calc__calc-btns__btn">+</div>
+              <div class="prj-calc__calc-btns__btn">1</div>
+              <div class="prj-calc__calc-btns__btn">2</div>
+              <div class="prj-calc__calc-btns__btn">3</div>
+              <div class="prj-calc__calc-btns__btn">.</div>
+              <div class="prj-calc__calc-btns__btn">(</div>
+              <div class="prj-calc__calc-btns__btn">0</div>
+              <div class="prj-calc__calc-btns__btn">)</div>
+              <div id="equal" class="prj-calc__calc-btns__btn">=</div>
+            </div>
+            <div class="prj-calc__calc-dscr">&#9400; by RMishenin</div>
+          </div>
+          <div class="prj-calc__dscr">
+            <div class="prj-calc__dscr-title">Калькулятор</div>
+            <div class="prj-calc__dscr-dscr">
+              Данный калькулятор был реализован с помощью CSS свойств
+              <strong>display: flex</strong> и <strong>display: grid</strong>.
+              <br /><br />
+              Использование <strong>display:flex</strong> позволило легко
+              выстроить все элементы в нужном порядке и задать им необходимые
+              пропорции. <br /><br />
+              Это помогло создать гибкую и адаптивную верстку, которая отлично
+              смотрится на разных устройствах. <br /><br />
+              Использование <strong>display: grid</strong> позволило разбить
+              калькулятор на ячейки и удобно расположить кнопки в нужных местах.
+              <br /><br />
+              Это позволило легко настраивать внешний вид калькулятора и
+              управлять его поведением. <br /><br />
+              В общем, использование этих CSS свойств помогло создать простой и
+              эффективный калькулятор, который легко может быть доработан и
+              модифицирован по желанию.
+            </div>
+          </div>
+        </div>
+        <div class="prj-tic">
+          <div class="prj-tic__app"></div>
+        </div>
+      </section>
+      <section class="report"></section>
+    </main>
+    <script src="/src/js/calc.js"></script>
+  </body>
+</html>
