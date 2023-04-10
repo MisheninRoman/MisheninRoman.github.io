@@ -1,7 +1,7 @@
 "use strict"; // Включение строгого режима, обеспечивающего более строгую проверку синтаксиса и более безопасное поведение.
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Ожидание полной загрузки DOM-дерева, затем выполнение функции обратного вызова.
+  // Добавление слушателя событий, который вызовет функцию обратного вызова после загрузки всего DOM-дерева.
   let display = document.getElementById("prj-calc__calc-disp"); // Нахождение элемента с идентификатором "prj-wrap__calc-disp" и присвоение его переменной "display".
   let btns = Array.from(
     document.getElementsByClassName("prj-calc__calc-btns__btn")
