@@ -1,0 +1,77 @@
+.about
+    display: flex
+    flex-direction: column
+    width: 100%
+    &-title
+        display: flex
+        justify-content: center
+        margin: 0 auto 30px auto
+        color: #f2f2f2
+        font-size: 35px
+        font-weight: bold
+        background-color: #6c63ff
+        width: 250px
+        border-radius: 5px
+        box-shadow: 0px 0px 10px 1px #3f3d56
+    &-wrapper
+        display: flex
+        justify-content: space-between
+        margin: 0
+        padding: 10px
+        &__title
+            display: flex
+            position: relative
+            p
+                display: flex
+                font-size: 19px
+                width: 500px
+                color: #3f3d56
+            img
+                object-fit: cover
+                width: 200px
+                height: 200px
+                position: absolute
+                transform: scaleX(-1)
+                left: -20%
+        &__dscr
+            display: flex
+            flex-direction: column
+            margin: 0 auto
+            width: au
+            &-title
+                display: flex
+                text-align: center
+                align-items: center
+                padding: 10px
+                margin-bottom: 30px
+                color: #f2f2f2
+                font-size: 18px
+                font-weight: bold
+                background-color: #6c63ff
+                width: auto
+                height: 40px
+                border-radius: 5px
+                box-shadow: 0px 0px 10px 1px #3f3d56
+                // writing-mode: vertical-lr
+                // transform: rotate(180deg)
+                // text-align: center
+            &-special
+                display: flex
+                margin: 0 auto
+                width: 250px
+                justify-content: center
+                &__wrapper
+                    display: grid
+                    grid-template-columns: repeat(2, 3fr)
+                    grid-gap: 100px
+                    align-items: center
+                    &-elm
+                        display: flex
+                        justify-content: center
+                        width: 80px
+                        height: 80px
+                    img
+                        object-fit: cover
+                        height: 150px
+                        width: 150px
+                
