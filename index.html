@@ -18,7 +18,7 @@
           <li><a href="#about" class="head__menu-li">Сведения</a></li>
           <li><a href="#prj" class="head__menu-li">Проекты</a></li>
           <li>
-            <a href="#" class="head__menu-li">Связаться</a>
+            <a href="#report" class="head__menu-li">Связаться</a>
           </li>
         </ul>
       </div>
@@ -30,9 +30,11 @@
           Увлеченный новатор цифрового мира<br />Написал
           <span>10 000</span> строк кода
         </h2>
-        <button type="submit" id="submit" class="btnRep">
-          Связаться со мной
-        </button>
+        <a href="#report"
+          ><button type="submit" id="submit" class="btnRep">
+            Связаться со мной
+          </button></a
+        >
       </div>
       <div class="promo__logo">
         <img src="img/developer.svg" alt="logo" />
@@ -389,7 +391,57 @@
           </div>
         </div>
       </section>
-      <section class="report"></section>
+      <section class="report" id="report">
+        <div class="report-title">Связаться</div>
+        <div class="report-wrapper">
+          <div class="report-wrapper__adress">
+            <div class="report-wrapper__adress-loc">
+              <div class="report-wrapper__adress-title">
+                <img src="/img/icons/location.png" alt="location" />
+              </div>
+              <div class="report-wrapper__adress-dscr">По всему Миру</div>
+            </div>
+            <div class="report-wrapper__adress-number">
+              <div class="report-wrapper__adress-title">
+                <img src="/img/icons/tel.png" alt="" />
+              </div>
+              <div class="report-wrapper__adress-dscr">8977****329</div>
+            </div>
+            <div class="report-wrapper__adress-email">
+              <div class="report-wrapper__adress-title">
+                <img src="/img/icons/email.png" alt="" />
+              </div>
+              <div class="report-wrapper__adress-dscr">
+                misheninrb@yandex.ru
+              </div>
+            </div>
+          </div>
+          <div class="report-wrapper__form">
+            <div class="report-wrapper__form-title">Свяжитесь со мной</div>
+            <div class="report-wrapper__form-dscr">
+              Если у вас есть какие-то вопросы или предложения по сотрудничеству
+              - заполните форму ниже
+            </div>
+            <form action="#" id="contact-form">
+              <div class="report-wrapper__form-box">
+                <input type="text" placeholder="Введите ваше имя" />
+              </div>
+              <div class="report-wrapper__form-box">
+                <input type="text" placeholder="Введите ваш email" />
+              </div>
+              <div class="report-wrapper__form-box">
+                <input type="text" placeholder="Введите ваш номер телефона" />
+              </div>
+              <div class="report-wrapper__form-box">
+                <textarea placeholder="Ваше сообщение"></textarea>
+              </div>
+              <div class="report-wrapper__form-btn" id="submit">
+                <input type="button" value="Отправить" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- <script src="js/preloader.js"></script> -->
