@@ -422,21 +422,22 @@
               Если у вас есть какие-то вопросы или предложения по сотрудничеству
               - заполните форму ниже
             </div>
-            <form action="#" id="contact-form">
+            <form action="#" id="contact-form" onsubmit="sendMessage()">
               <div class="report-wrapper__form-box">
-                <input type="text" placeholder="Введите ваше имя" />
+                <input id="name" type="text" placeholder="Введите ваше имя" />
               </div>
               <div class="report-wrapper__form-box">
-                <input type="text" placeholder="Введите ваш email" />
+                <input id="email" type="text" placeholder="Введите ваш email" />
               </div>
               <div class="report-wrapper__form-box">
-                <input type="text" placeholder="Введите ваш номер телефона" />
+                <input id="phone" type="text" placeholder="Введите ваш номер телефона" />
               </div>
               <div class="report-wrapper__form-box">
-                <textarea placeholder="Ваше сообщение"></textarea>
+                <textarea id="message" placeholder="Ваше сообщение"></textarea>
               </div>
               <div class="report-wrapper__form-btn" id="submit">
-                <input type="button" value="Отправить" />
+                <!-- <input type="button" value="Отправить" /> -->
+                <button>Отправить</button>
               </div>
             </form>
           </div>
@@ -445,6 +446,7 @@
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- <script src="js/preloader.js"></script> -->
+    <script src="js/form.js"></script>
     <script src="js/accardeon.js"></script>
     <script src="js/calc.js"></script>
     <script src="js/tic.js"></script>
