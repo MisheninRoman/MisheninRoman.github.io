@@ -1,0 +1,104 @@
+@media (max-width: 480px)
+    // header
+    .head
+        flex-wrap: wrap
+        &__logo
+            margin: 0 auto
+            padding: 0
+        &__menu
+            margin: 0 auto
+    // promo
+    .promo
+        flex-direction: column
+        &__wrap
+            &-title
+                font-size: 48px
+                margin: 0 auto
+            &-dscr
+                width: 100%
+                margin: 0 auto
+                text-align: center
+                font-size: 21px
+        &__logo
+            display: flex
+            justify-content: center
+            margin: 20px auto 0 auto
+            img
+                width: 90%
+                height: 90%
+    .btnRep
+        width: 100%
+        margin: 10px auto 0 auto
+    // блок main секция about
+    .about
+        flex-direction: column
+        margin-bottom: 30px
+        &-wrapper
+            flex-direction: column
+            &-title
+                p
+                    font-size: 14px
+                    text-align: center
+            &__dscr
+                justify-content: center
+                margin: 0 auto
+                width: 100%
+                &-title
+                    display: none
+                &-special
+                    display: flex
+                    flex-direction: column
+                    width: 100%
+                    &__wrapper
+                        display: grid
+                        justify-items: center
+                        img
+                            display: flex
+                            justify-content: center
+                            height: 90px
+                            width: 90px
+                            gap: 15px
+    // секция prj
+    .prj
+        flex-direction: column
+        &-title
+            margin-top: 30px
+        &-wrapper
+            flex-direction: column
+            flex-wrap: wrap
+            p
+                width: 100%
+                height: 100%
+                font-size: 14px
+            &__app
+                width: 100%
+                button
+                    font-size: 19px
+    // cекция prj - accordion - projects
+    // секция report
+    .report
+        &-title
+            margin-top: 30px
+        &-wrapper
+            width: 100%
+            &__adress
+                display: none
+            &__form
+                width: 100%
+                margin: 0 auto
+                &-title
+                    width: 100%
+                    text-align: center
+                &-dscr
+                    text-align: center
+                &-box
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    #name, #email, #phone, #message
+                        width: 90%
+                &-btn
+                    display: flex
+                    justify-content: center
+                    button
+                        width: 90%
